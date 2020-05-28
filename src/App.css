@@ -1,38 +1,47 @@
 .App {
   text-align: center;
+  background-image: url("https://cdn.shopify.com/s/files/1/0094/1621/2537/articles/dreamdesk_1920x.jpg?v=1565028309g");
+  background-position:center center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.profile{
+  background-color: rgba(255, 255, 238,0.7);
+  margin-left:230px;
+  border: 10px solid black;
+  height:610px;
+  width:800px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.navs{
+  background-color: black;
   color: white;
+  font: 1em sans-serif;
+  height: 50px;
+  border: 10px solid black;
+  text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
+.image{
+  height: 300px;
+  width: 280px;
+  margin-top: 60px;
+  float: left;
+  padding-left: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.content{
+  margin-top: 55px;
+   margin-left: 350px;
+   left: 0;
+   text-align: justify;
+}
+
+.skill{
+  border-radius: 5px;
+  display: inline-flex;
+  margin-right: 12px;
+  border: 2px solid black;
 }
